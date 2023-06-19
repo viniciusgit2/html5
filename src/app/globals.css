@@ -42,6 +42,6 @@ body {
       
   }
   nav#menu :hover{background-color: aqua;transition:all; display: none;}
-  div#interface{width: 900px;margin: 0px auto 0px auto;box-shadow:0px 0px 10px chartreuse;padding: 10px;;}
-  div#icone{position:absolute;left: 800px;top: auto;}
+  div#interface{width: 500px;margin: 10px auto auto;box-shadow:10px 10px 10px 10px palegreen;padding: 10px; }
+  div#icone{position:absolute;left: 50px;top: 20px;padding: 20px;}
 
