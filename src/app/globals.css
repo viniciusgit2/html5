@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  background-color: black;
+  color: crimson;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,10 +15,14 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    background-color: black;
+    color: crimson;
   }
 }
 
 body {
+  background-color: black;
+  color: crimson;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,3 +31,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+    title{
+      background-color: black;
+      color: blue;   
+  }
+  nav#menu{text-transform:uppercase;
+      padding:10px ;
+      display: block;
+      background-color: blue;
+      
+  }
+  nav#menu :hover{background-color: aqua;transition:all; display: none;}
+  div#interface{width: 900px;margin: 0px auto 0px auto;box-shadow:0px 0px 10px chartreuse;padding: 10px;;}
+  div#icone{position:absolute;left: 800px;top: auto;}
+
