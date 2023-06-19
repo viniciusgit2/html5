@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family:'all';
+  src: url("../../public/fonte/All Star Resort.ttf");
+}
 :root {
+ 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,22 +29,55 @@ body {
   border-bottom: black;
   background-color: black;
   color: crimson;
+font-family: 'all';
 
- 
     
-   
+
+
+}
+
+p{
+  margin:auto;;
+  padding: auto;
+  font-family: 'all';
+ 
+  text-align: left;
+}
+h1{
+  color: darkgoldenrod;
+  margin: 5px;
+  
+}
+h2{
+  color: darkgoldenrod;
+  margin: 5px;
+  
+}
+h3{
+  color: darkgoldenrod;
+  margin: 8px;
+  
 }
     title{
-      background-color: black;
+      font-family: "../../public/fonte/All Star Resort.ttf";
+      background-color: aqua;
       color: blue;   
+      text-align: left;
   }
   nav#menu{text-transform:uppercase;
-      padding:10px ;
-      display: block;
+     
+      display: flex;
       background-color: blue;
+            text-align: left;
+            
       
   }
   nav#menu :hover{background-color: aqua;transition:all; display: none;}
   div#interface{width: 500px;margin: 10px auto auto;box-shadow:10px 10px 10px 10px palegreen;padding: 10px; }
   div#icone{position:absolute;left: 50px;top: 20px;padding: 20px;}
 
+footer{
+  margin: auto;
+  color: gold;
+  text-align: center;
+}
