@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family:'all';
+  src: url("../../public/fonte/All Star Resort.ttf");
+}
 :root {
+ 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -21,8 +26,10 @@
 }
 
 body {
+  border-bottom: black;
   background-color: black;
   color: crimson;
+<<<<<<< HEAD
  
   background: linear-gradient(
       to bottom,
@@ -30,21 +37,63 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+=======
+font-family: 'all';
+
+    
+
+
+}
+
+p{
+  margin:auto;;
+  padding: auto;
+  font-family: 'all';
+ 
+  text-align: left;
+}
+h1{
+  color: darkgoldenrod;
+  margin: 5px;
+  
+}
+h2{
+  color: darkgoldenrod;
+  margin: 5px;
+  
+}
+h3{
+  color: darkgoldenrod;
+  margin: 8px;
+  
+>>>>>>> 064ac0ee79ad175419c983aea00804f0a012dec2
 }
     title{
-      background-color: black;
+      font-family: "../../public/fonte/All Star Resort.ttf";
+      background-color: aqua;
       color: blue;   
+      text-align: left;
   }
   nav#menu{text-transform:uppercase;
-      padding:10px ;
-      display: block;
+     
+      display: flex;
       background-color: blue;
+            text-align: left;
+            
       
   }
   nav#menu :hover{background-color: aqua;transition:all; display: none;}
-  div#interface{width: 900px;margin: 0px auto 0px auto;box-shadow:0px 0px 10px chartreuse;padding: 10px;;}
-  div#icone{position:absolute;left: 800px;top: auto;}
+  div#interface{width: 500px;margin: 10px auto auto;box-shadow:10px 10px 10px 10px palegreen;padding: 10px; }
+  div#icone{position:absolute;left: 50px;top: 20px;padding: 20px;}
 
+<<<<<<< HEAD
 #tabela{ color: blanchedalmond;border: green;border: 10px solid goldenrod;margin:auto ;width: auto;text-align: justify; }
 #tabela2{ color: blanchedalmond;border: green;border: 10px solid goldenrod;margin:auto ;width: auto;text-align: center;}
 #obs{ color:purple 10px solid blanchedalmond;margin:auto ;width: auto;text-align:justify;}
+=======
+footer{
+  margin: auto;
+  color: gold;
+  text-align: center;
+}
+>>>>>>> 064ac0ee79ad175419c983aea00804f0a012dec2
