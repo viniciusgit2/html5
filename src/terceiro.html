@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lampada,again</title>
+</head>
+<script>
+  function muda_lampada (tipo){
+    if(tipo==1){
+     arquivo=( "../public/lampada ligada.webp")
+    document.getElementById("foi").src="../public/lampada ligada.webp"
+    }
+    else if (tipo==2){
+       arquivo=( "../public/lampada apagada.jpg")
+        document.getElementById("foi").src=arquivo
+    }
+    }
+  
+
+</script>
+<body>
+     <img  width=100px src="../public/lampada apagada.jpg" id="foi" onmousemove="muda_lampada(1)"onclick="muda_lampada(2)"></img>
+</body>
+</html>
